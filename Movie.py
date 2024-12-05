@@ -12,7 +12,7 @@ base_url = "https://api.themoviedb.org/3"
 image_base_url = "https://image.tmdb.org/t/p/w500"
 
 # Load movie data
-data = pd.read_csv("D:/Code/movie_tags.csv")
+data = pd.read_csv("D:/movie-recomender/movie_tags.csv")
 data = data.head(5000)
 
 # Clean 'tags' column by removing numbers
